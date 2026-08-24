@@ -9,7 +9,7 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 window.addEventListener('load', () => {
   const loader = document.getElementById('loader');
   const loaderVideo = document.getElementById('loader-video');
-  const MAX_LOADER_MS = 7000; // Video duration cap (7s)
+  const MAX_LOADER_MS = 7500; // 6s video + buffer cap
 
   const finishLoading = () => {
     loader.classList.add('hidden');
@@ -23,15 +23,14 @@ window.addEventListener('load', () => {
   let done = false;
   const safeFinish = () => { if (!done) { done = true; finishLoading(); } };
 
-  // Video full-a play aagi mudicha apram thaan website reveal aagum
+  // Video end aanadhum site reveal aagum
   if (loaderVideo) {
     loaderVideo.addEventListener('ended', safeFinish, { once: true });
   }
-  
-  // Fallback safety timeout
+
+  // Fallback safety cap
   setTimeout(safeFinish, MAX_LOADER_MS);
 });
-
 
 // ---- Nav background on scroll ----
 const nav = document.getElementById('nav');
