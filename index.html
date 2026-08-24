@@ -9,15 +9,15 @@
 <body>
 
 <div id="loader">
-  <div class="grinder-wrap">
-    <svg class="grinder-svg" viewBox="0 0 100 100" fill="none" stroke="#F5E8D0" stroke-width="2.2">
-      <path d="M32 20 L68 20 L64 40 L36 40 Z"/>
-      <rect x="36" y="40" width="28" height="10" rx="1"/>
-      <path d="M40 50 L60 50 L57 78 Q50 85 43 78 Z"/>
-      <path id="grinder-drip" d="M50 66 L50 80" stroke="#9E6812" stroke-width="2" stroke-linecap="round" stroke-dasharray="14" stroke-dashoffset="14"/>
-    </svg>
-    <div class="fill-track"><div class="fill-bar" id="fill-bar"></div></div>
-  </div>
+  <video
+    id="loader-video"
+    class="loader-video"
+    src="assets/loader.mp4"
+    autoplay
+    muted
+    playsinline
+    preload="auto"
+  ></video>
   <div class="loader-text">Brewing the experience</div>
 </div>
 
