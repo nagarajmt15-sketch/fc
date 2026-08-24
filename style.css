@@ -82,7 +82,7 @@ img { display: block; max-width: 100%; }
 #loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 
 .loader-video {
-  width: min(90vw, 420px);
+  width: min(90vw, 450px);
   height: auto;
   border-radius: 12px;
   object-fit: contain;
