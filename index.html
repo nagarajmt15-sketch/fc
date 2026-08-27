@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forest Cafe — Vellimalai Road, Salem</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader">
+  <video
+    id="loader-video"
+    class="loader-video"
+    src="assets/loader.mp4"
+    autoplay
+    muted
+    playsinline
+    preload="auto"
+  ></video>
+  <div class="loader-text">Brewing the experience</div>
+</div>
+
+<nav id="nav">
+  <a href="#hero" class="nav-word">Forest Cafe</a>
+  <ul class="nav-links">
+    <li><a href="#soil-to-sip">Coffee</a></li>
+    <li><a href="#farmer">Farm</a></li>
+    <li><a href="#tinycot">Tiny Cot</a></li>
+    <li><a href="#owner">Story</a></li>
+  </ul>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero-container">
+
+  <!-- Hero Background -->
+  <div class="hero-bg-wrapper">
+
+    <!-- ===== DESKTOP PARALLAX LAYERS ===== -->
+
+    <!-- Layer 1: Sky -->
+    <div
+      class="hero-parallax-layer hero-layer-sky"
+      id="hero-layer-1"
+    >
+      <img
+        src="assets/hero/hero-01-sky.jpg"
+        alt="Forest sky at dawn"
+      >
+    </div>
+
+    <!-- Layer 2: Trees -->
+    <div
+      class="hero-parallax-layer hero-layer-treeline"
+      id="hero-layer-2"
+    >
+      <img
+        src="assets/hero/hero-02-treeline.png"
+        alt="Palm treeline and houses"
+      >
+    </div>
+
+    <!-- Layer 3: Cafe -->
+    <div
+      class="hero-parallax-layer hero-layer-cafe"
+      id="hero-layer-3"
+    >
+      <img
+        src="assets/hero/hero-03-cafe.png"
+        alt="Forest Cafe entrance"
+      >
+    </div>
+
+    <!-- Layer 4: Foreground -->
+    <div
+      class="hero-parallax-layer hero-layer-foreground"
+      id="hero-layer-4"
+    >
+      <img
+        src="assets/hero/hero-04-foreground.png"
+        alt="Hanging plants and cafe table"
+      >
+    </div>
+
+
+    <!-- ===== MOBILE HERO ===== -->
+
+    <div class="hero-mobile-image">
+      <img
+        src="assets/hero/hero-mobile.webp"
+        alt="Forest Cafe"
+      >
+    </div>
+
+
+    <!-- Hero Overlay -->
+    <div class="hero-overlay"></div>
+
+  </div>
+
+
+  <!-- ===== HERO CONTENT ===== -->
+
+  <div class="hero-content">
+
+    <h1 class="hero-title">
+      FOREST CAFE
+    </h1>
+
+    <p class="hero-subtitle">
+      Scroll to explore our sanctuary
+    </p>
+
+  </div>
+
+
+  <!-- ===== LEFT FEATURE CARD ===== -->
+
+  <div class="hero-card card-left">
+
+    <span class="card-icon">☕</span>
+
+    <div class="card-text">
+      <h4>Fresh Brews</h4>
+
+      <p>
+        Artisanal coffee brewed from fresh beans
+      </p>
+    </div>
+
+  </div>
+
+
+  <!-- ===== RIGHT FEATURE CARD ===== -->
+
+  <div class="hero-card card-right">
+
+    <span class="card-icon">🌿</span>
+
+    <div class="card-text">
+      <h4>Organic Farm</h4>
+
+      <p>
+        Relax in our cozy natural ambiance
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ============================================
+     SOIL TO SIP — 10 CARD SCROLL JOURNEY
+     ============================================ -->
+
+<section id="soil-to-sip" class="soil-to-sip-section">
+
+  <div class="sts-wrap">
+
+    <!-- ========================================
+         LEFT — JOURNEY LINE
+         ======================================== -->
+
+    <div class="sts-journey">
+
+      <div class="sts-line-wrap">
+
+        <svg
+          class="sts-line-svg"
+          viewBox="0 0 120 1000"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+
+          <!-- Background line -->
+          <path
+            id="sts-line-bg"
+            d="
+              M 60 0
+              C 42 90, 78 150, 60 230
+              C 42 310, 78 370, 60 450
+              C 45 530, 75 600, 60 680
+              C 45 760, 78 830, 60 1000
+            "
+          ></path>
+
+          <!-- Active line -->
+          <path
+            id="sts-line-active"
+            d="
+              M 60 0
+              C 42 90, 78 150, 60 230
+              C 42 310, 78 370, 60 450
+              C 45 530, 75 600, 60 680
+              C 45 760, 78 830, 60 1000
+            "
+          ></path>
+
+        </svg>
+
+        <!-- Moving circle -->
+        <div id="sts-moving-dot"></div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ========================================
+         RIGHT — IMAGE CARD STACK
+         ======================================== -->
+
+    <div class="sts-card-stack">
+
+      <!-- Card 01 -->
+      <article class="sts-card sts-card-01">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 01"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 01
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 02 -->
+      <article class="sts-card sts-card-02">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 02"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 02
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 03 -->
+      <article class="sts-card sts-card-03">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 03"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 03
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 04 -->
+      <article class="sts-card sts-card-04">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 04"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 04
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 05 -->
+      <article class="sts-card sts-card-05">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 05"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 05
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 06 -->
+      <article class="sts-card sts-card-06">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 06"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 06
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 07 -->
+      <article class="sts-card sts-card-07">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 07"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 07
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 08 -->
+      <article class="sts-card sts-card-08">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 08"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 08
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 09 -->
+      <article class="sts-card sts-card-09">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 09"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 09
+          </span>
+        </div>
+      </article>
+
+
+      <!-- Card 10 -->
+      <article class="sts-card sts-card-10">
+        <div class="sts-card-image">
+          <img
+            src=""
+            alt="Soil to Sip — Stage 10"
+          >
+          <span class="sts-image-placeholder">
+            IMAGE 10
+          </span>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ============================================
+     LITTLE FARMER
+     ============================================ -->
+
+<section id="little-farmer" class="little-farmer-section">
+
+  <div class="little-farmer-wrap">
+
+    <!-- ========================================
+         INTRO
+         ======================================== -->
+
+    <div class="little-farmer-intro">
+
+      <p class="little-farmer-eyebrow">
+        FROM OUR FARM
+      </p>
+
+      <h2 class="little-farmer-title">
+        Little Farmer
+      </h2>
+
+      <p class="little-farmer-quote">
+        “Grown with care, made close to the earth.”
+      </p>
+
+      <p class="little-farmer-description">
+        We grow and care for what we can on our own farm,
+        keeping things simple, seasonal, and as natural as possible.
+        From the soil to our kitchen, every ingredient carries
+        a little piece of where we come from.
+      </p>
+
+    </div>
+
+
+    <!-- ========================================
+         PRODUCTS
+         ======================================== -->
+
+    <div class="little-farmer-products">
+
+      <!-- Product 01 -->
+      <article class="little-farmer-product">
+
+        <div class="little-farmer-product-image">
+
+          <img
+            src=""
+            alt="Coffee Powder"
+          >
+
+          <span class="little-farmer-image-placeholder">
+            IMAGE 01
+          </span>
+
+        </div>
+
+        <div class="little-farmer-product-info">
+
+          <p class="little-farmer-product-number">
+            01
+          </p>
+
+          <h3>
+            Coffee Powder
+          </h3>
+
+          <p>
+            Farm Roast
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- Product 02 -->
+      <article class="little-farmer-product">
+
+        <div class="little-farmer-product-image">
+
+          <img
+            src=""
+            alt="70 30 Coffee Blend"
+          >
+
+          <span class="little-farmer-image-placeholder">
+            IMAGE 02
+          </span>
+
+        </div>
+
+        <div class="little-farmer-product-info">
+
+          <p class="little-farmer-product-number">
+            02
+          </p>
+
+          <h3>
+            70 / 30 Coffee Blend
+          </h3>
+
+          <p>
+            House Blend
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- Product 03 -->
+      <article class="little-farmer-product">
+
+        <div class="little-farmer-product-image">
+
+          <img
+            src=""
+            alt="80 20 Coffee Blend"
+          >
+
+          <span class="little-farmer-image-placeholder">
+            IMAGE 03
+          </span>
+
+        </div>
+
+        <div class="little-farmer-product-info">
+
+          <p class="little-farmer-product-number">
+            03
+          </p>
+
+          <h3>
+            80 / 20 Coffee Blend
+          </h3>
+
+          <p>
+            Signature Blend
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- Product 04 -->
+      <article class="little-farmer-product">
+
+        <div class="little-farmer-product-image">
+
+          <img
+            src=""
+            alt="Pirandai Thokku"
+          >
+
+          <span class="little-farmer-image-placeholder">
+            IMAGE 04
+          </span>
+
+        </div>
+
+        <div class="little-farmer-product-info">
+
+          <p class="little-farmer-product-number">
+            04
+          </p>
+
+          <h3>
+            Pirandai Thokku
+          </h3>
+
+          <p>
+            Made in Small Batches
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- Product 05 -->
+      <article class="little-farmer-product">
+
+        <div class="little-farmer-product-image">
+
+          <img
+            src=""
+            alt="Banana Cake"
+          >
+
+          <span class="little-farmer-image-placeholder">
+            IMAGE 05
+          </span>
+
+        </div>
+
+        <div class="little-farmer-product-info">
+
+          <p class="little-farmer-product-number">
+            05
+          </p>
+
+          <h3>
+            Banana Cake
+          </h3>
+
+          <p>
+            Freshly Baked
+          </p>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ============ FARMER -> TINY COT: PATH JOURNEY ============ -->
+<section id="tinycot-path">
+  <div class="path-sticky">
+    <div class="path-heading">
+      <div class="eyebrow reveal">A Little Further</div>
+      <h2 class="display reveal">The Path to Tiny Cot</h2>
+    </div>
+    <div class="path-svg-wrap">
+      <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice">
+        <path id="path-line" d="M100 500 Q 300 350 250 250 T 500 150 Q 700 100 900 130"/>
+        <circle id="path-marker" cx="100" cy="500" r="9"/>
+      </svg>
+    </div>
+    <div class="path-caption" id="cap-1" style="top:70%; left:14%;">Past the farm</div>
+    <div class="path-caption" id="cap-2" style="top:42%; left:38%;">Coffee, waiting for you</div>
+    <div class="path-caption" id="cap-3" style="top:28%; left:62%;">Almost there</div>
+    <div class="path-caption" id="cap-4" style="top:24%; left:86%;">Tiny Cot</div>
+  </div>
+</section>
+
+<!-- ============ TINY COT ============ -->
+<section id="tinycot" class="world-cot">
+  <div class="cot-visual-wrap" id="cot-visual">
+    <div class="cot-placeholder">
+      <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#243744"/>
+            <stop offset="100%" stop-color="#17242D"/>
+          </linearGradient>
+        </defs>
+        <rect width="400" height="250" fill="url(#sky)"/>
+        <circle cx="330" cy="45" r="26" fill="#3a5262" opacity="0.6"/>
+        <path d="M0 190 Q100 165 200 185 T400 175 V250 H0 Z" fill="#1c2c35"/>
+        <path d="M120 190 L120 140 L170 110 L220 140 L220 190 Z" fill="#28404c"/>
+        <rect x="160" y="150" width="20" height="40" fill="#17242D"/>
+        <path d="M110 140 L170 105 L230 140" stroke="#506474" stroke-width="3" fill="none"/>
+        <circle cx="190" cy="165" r="3" fill="#E8DED0" opacity="0.8"/>
+        <path d="M60 200 Q80 160 60 130" stroke="#2d4552" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M310 205 Q330 155 300 120" stroke="#2d4552" stroke-width="7" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="cot-badge">Concept Preview — 360° coming</span>
+    </div>
+  </div>
+  <div class="cot-text-block">
+    <div class="eyebrow reveal">Coming Soon</div>
+    <h2 class="display reveal">Stay a Little Longer</h2>
+    <p class="reveal">A small, quiet homestay just beyond the cafe grounds. Real photographs (or a 360° walkthrough) will replace this concept preview once Tiny Cot is ready to welcome guests.</p>
+    <a href="#" class="btn reveal" onclick="return false;">Enquire for a Stay</a>
+  </div>
+</section>
+
+<!-- ============ OWNER STORY — LAYERED PARALLAX ============ -->
+<section id="owner">
+  <div class="wrap owner-grid">
+    <div class="owner-portrait reveal owner-parallax-wrap">
+      <svg viewBox="0 0 300 375" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="portraitBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#243744"/>
+            <stop offset="100%" stop-color="#211713"/>
+          </linearGradient>
+        </defs>
+        <rect width="300" height="375" fill="url(#portraitBg)"/>
+      </svg>
+      <div class="owner-layer" id="owner-layer-back" style="opacity:0.5;">
+        <svg viewBox="0 0 300 375" width="100%" height="100%"><circle cx="150" cy="140" r="70" fill="#E8DED0" opacity="0.10"/></svg>
+      </div>
+      <div class="owner-layer" id="owner-layer-front">
+        <svg viewBox="0 0 300 375" width="100%" height="100%"><path d="M80 330 Q150 245 220 330 L220 375 L80 375 Z" fill="#E8DED0" opacity="0.14"/></svg>
+      </div>
+    </div>
+    <div class="owner-copy">
+      <div class="eyebrow reveal">The Person Behind the Forest</div>
+      <h2 class="display reveal">Art Director. Farmer. Cafe Owner.</h2>
+      <p class="reveal">Every corner of Forest Cafe — the mosaic tables, the painted signage, the wall art tucked between the trees — carries the same hand. This is a space shaped by someone who thinks like a designer first.</p>
+      <p class="reveal">A real portrait will take the place of this concept once one is ready to share.</p>
+      <div class="owner-tags">
+        <span>Art Director</span>
+        <span>Creator</span>
+        <span>Cafe Owner</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ART / CREATIVE WORKS ============ -->
+<section id="art">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">More Than a Cafe</div>
+      <h2 class="display">The Art Behind the Forest</h2>
+      <p>Ordinary materials, made into something else — the handcrafted details you'll notice as you walk through.</p>
+    </div>
+    <div class="art-masonry">
+      <div class="art-item a1 reveal"><img src="assets/art/art-06.jpg" alt="Hand-painted chalkboard mural of the Forest Cafe emblem and menu illustrations"></div>
+      <div class="art-item a4 reveal"><img src="assets/art/art-07.jpg" alt="Mossy sculpted face planters mounted on a stone garden wall"></div>
+      <div class="art-item a5 reveal"><img src="assets/art/art-02.jpg" alt="A rustic wooden shelf styled with potted plants and books"></div>
+      <div class="art-item a2 reveal"><img src="assets/art/art-05.jpg" alt="A styled display shelf with greenery and handcrafted decor pieces"></div>
+      <div class="art-item a6 reveal"><img src="assets/art/art-08.jpg" alt="Trailing vines framing a quiet dining nook"></div>
+      <div class="art-item a3 reveal"><img src="assets/art/art-03.jpg" alt="A roadside Forest Cafe banner illustrated with hand-drawn coffee art"></div>
+      <div class="art-item a7 reveal"><img src="assets/art/art-04.jpg" alt="The Forest Cafe entrance signboard among the trees"></div>
+      <div class="art-item a8 reveal"><img src="assets/art/art-09.jpg" alt="A hand holding a Forest Cafe business card with the emblem"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENU — FROM THE COUNTER ============ -->
+<section id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">From the Counter</div>
+      <h2 class="display">The Menu</h2>
+      <p>A small selection of what's poured, baked, and bottled at Forest Cafe.</p>
+    </div>
+  </div>
+  <div class="menu-track-wrap">
+    <div class="menu-track" id="menu-track">
+      <div class="menu-card"><img src="assets/menu/menu-01.jpg" alt="Handwritten Forest Cafe chalkboard menu listing coffee, shakes and snacks"></div>
+      <div class="menu-card"><img src="assets/menu/menu-05.jpg" alt="A cold coffee served beside a hand-painted wall portrait"></div>
+      <div class="menu-card"><img src="assets/menu/menu-03.jpg" alt="Filter coffee served in a paper cup on an outdoor table"></div>
+      <div class="menu-card"><img src="assets/menu/menu-07.jpg" alt="A freshly made grilled sandwich, cut in half"></div>
+      <div class="menu-card"><img src="assets/menu/menu-06.jpg" alt="A cheesy flatbread fresh off the griddle"></div>
+      <div class="menu-card"><img src="assets/menu/menu-11.jpg" alt="A slice of homemade cake on a paper plate"></div>
+      <div class="menu-card"><img src="assets/menu/menu-08.jpg" alt="A packaged bag of pure Forest Cafe filter coffee"></div>
+      <div class="menu-card"><img src="assets/menu/menu-09.jpg" alt="Bottled Forest Cafe beverages lined up on a shelf"></div>
+      <div class="menu-card"><img src="assets/menu/menu-10.jpg" alt="The retail counter stocked with Forest Cafe packaged goods"></div>
+    </div>
+  </div>
+  <p class="menu-hint">Swipe to see more</p>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="world-coffee">
+  <div class="wrap">
+    <h2 class="display">Forest Cafe</h2>
+    <div class="eyebrow">Coffee. Land. Stories.</div>
+    <ul class="footer-links">
+      <li><a href="#" onclick="return false;">Vellimalai Road, Salem</a></li>
+      <li><a href="#" onclick="return false;">Instagram</a></li>
+      <li><a href="#" onclick="return false;">Google Maps</a></li>
+      <li><a href="#" onclick="return false;">Contact</a></li>
+    </ul>
+    <p class="footer-fine">Demo build for Forest Cafe &middot; links are placeholders</p>
+  </div>
+</footer>
+
+<script src="gsap.min.js"></script>
+<script src="ScrollTrigger.min.js"></script>
+<script src="MotionPathPlugin.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
